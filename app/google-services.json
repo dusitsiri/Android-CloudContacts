@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "888180810926",
+    "firebase_url": "https://cloudcontacts-ad6c4.firebaseio.com",
+    "project_id": "cloudcontacts-ad6c4",
+    "storage_bucket": "cloudcontacts-ad6c4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:888180810926:android:0eedfd626e403e06",
+        "android_client_info": {
+          "package_name": "com.cloudcontacts"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "888180810926-cokk2r85gtvonmodupnn4iv8146vnfb6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cloudcontacts",
+            "certificate_hash": "f09365dec1b1b6ceecc5a67f6c4b7ba89d245719"
+          }
+        },
+        {
+          "client_id": "888180810926-iinofev1k08n15t476rg4umnblk5dmal.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD19DVcxtUNxaV8_u5-l7GyDiwJdlovDmg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "888180810926-iinofev1k08n15t476rg4umnblk5dmal.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
