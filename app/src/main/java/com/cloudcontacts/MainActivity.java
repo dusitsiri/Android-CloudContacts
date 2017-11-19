@@ -32,29 +32,34 @@ public class MainActivity extends AppCompatActivity {
             public void onChildAdded(DataSnapshot dataSnapshot, String s) {
                 User addUser = dataSnapshot.getValue(User.class);
                 Log.i("i", "Added: "+ addUser.name+","+addUser.salary);
+                Toast.makeText(MainActivity.this, "Added", Toast.LENGTH_SHORT).show();
             }
 
             @Override
             public void onChildChanged(DataSnapshot dataSnapshot, String s) {
                 User changeUser = dataSnapshot.getValue(User.class);
                 Log.i("i", "Changed: "+ changeUser.name+","+changeUser.salary);
+                Toast.makeText(MainActivity.this, "Changed", Toast.LENGTH_SHORT).show();
             }
 
             @Override
             public void onChildRemoved(DataSnapshot dataSnapshot) {
                 User removeUser = dataSnapshot.getValue(User.class);
                 Log.i("i", "Removed: "+ removeUser.name+","+removeUser.salary);
+                Toast.makeText(MainActivity.this, "Removed", Toast.LENGTH_SHORT).show();
             }
 
             @Override
             public void onChildMoved(DataSnapshot dataSnapshot, String s) {
                 User moveUser = dataSnapshot.getValue(User.class);
                 Log.i("i", "Moved: "+ moveUser.name+","+moveUser.salary);
+                Toast.makeText(MainActivity.this, "Moved", Toast.LENGTH_SHORT).show();
             }
 
             @Override
             public void onCancelled(DatabaseError databaseError) {
                 Log.i("i", "Cancelled: "+databaseError.getMessage());
+                Toast.makeText(MainActivity.this, "Cancelled", Toast.LENGTH_SHORT).show();
             }
         });
     }
